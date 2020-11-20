@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Styles from '../styles/Home.module.css'
 import Head_bar from '../components/head_bar'
-import Allitem from '../components/allitem'
+import Allitem from '../components/Allitem/allitem'
 
 export default function Home() {
   return (

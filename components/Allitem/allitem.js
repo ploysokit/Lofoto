@@ -1,5 +1,6 @@
 import React from "react";
 import {Card,Button} from "react-bootstrap";
+import Scss from './allitem.module.scss'
 
 const allitem = () => {
   return (
@@ -9,7 +10,7 @@ const allitem = () => {
         <div style={{ backgroundColor: "#2E8B57", padding: "10px",fontFamily: "Kanit, sans-serif",color:"#D3D3D3" }}>
           รายการสินค้า
         </div>
-        <div style={{paddding:"10px" ,display:"grid",gridTemplateColumns:"1fr 1fr 1fr 1fr",gridGap:"10px"}}>
+        <div className={Scss.item}>
           <Card style={{ width: "18rem" }}>
             <Card.Img variant="top" style={{width:'290x',height:"180px"}}
             src="https://media.wired.com/photos/598e35fb99d76447c4eb1f28/master/pass/phonepicutres-TA.jpg" />
