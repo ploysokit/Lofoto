@@ -4,7 +4,7 @@ import {Card,Button} from "react-bootstrap";
 const allitem = () => {
   return (
     <div style={{ width: "100%" }}>
-    <div style={{ width: "fit-content", margin: "auto" }}>
+    <div style={{ width: "fit-content", margin: "auto"}}>
       <div style={{ backgroundColor: "#D3D3D3" }}>
         <div style={{ backgroundColor: "#2E8B57", padding: "10px",fontFamily: "Kanit, sans-serif",color:"#D3D3D3" }}>
           รายการสินค้า
