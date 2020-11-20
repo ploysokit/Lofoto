@@ -4,7 +4,7 @@ import { Button, Card,Carousel} from "react-bootstrap";
 import style from "../styles/style.module.css";
 function head_bar() {
   return (
-    <div>
+    <div className="style.carousel-inner">
       <Carousel>
         <Carousel.Item interval={1000}>
           <img
@@ -14,8 +14,8 @@ function head_bar() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>WELLCOME TO LOFOTO</h3>
+            <p>Website for collecting images just for you..</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={500}>
@@ -26,8 +26,8 @@ function head_bar() {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>WELLCOME TO LOFOTO</h3>
+            <p>Website for collecting images just for you..</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -38,10 +38,8 @@ function head_bar() {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>WELLCOME TO LOFOTO</h3>
+            <p>Website for collecting images just for you.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
